@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "terrarg" {
   location = "East US"
 }
 resource "azurerm_storage_account" "storage" {
-  name                     = "terrastorageacc02S"  # must be globally unique and lowercase
+  name                     = "terrastorageacc02"  # must be globally unique and lowercase
   resource_group_name      = "terrarg"
   location                 = "East US"
   account_tier             = "Standard"
